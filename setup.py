@@ -2,7 +2,7 @@ from setuptools import setup
 import versioneer
 
 setup(
-    name='gwyfile',
+    name='pycroscopy-gwyfile',
     version=versioneer.get_version(),
     cmdclass=versioneer.get_cmdclass(),
     description='Pure Python implementation of the Gwyddion file format',
